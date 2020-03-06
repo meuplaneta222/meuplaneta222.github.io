@@ -1,0 +1,373 @@
+URL de importação @ ('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url ("https://fonts.googleapis.com/css?family=Raleway:300.600.800");
+* {
+  transição: facilidade de 0.4s;
+}
+corpo {
+background: url ('https://culturecrusaders.com/wp-content/uploads/2019/07/DasherandCrank.jpg');
+ cor de fundo: rgb (210, 129, 152);
+    repetição em segundo plano: sem repetição;
+    tamanho do plano de fundo: automático;
+    tamanho do plano de fundo: 100%;
+anexo em segundo plano: fixo;
+}
+.ice-bloco {
+  display: bloco;
+  posição: relativa;
+  estouro: oculto;
+  alinhamento de texto: centro;
+}
+.conteudo-conteiner {
+  largura: 85%;
+  largura máxima: 1400 px;
+  largura mínima: 320 px;
+  margem: 80px automático;
+  cor de fundo: #fff;
+  sombra da caixa: 8px 8px 20px 5px rgba (20,20,20,0,4);
+  família de fontes: Raleway, cursiva;
+  tamanho da fonte: 22 px;
+  cor da fonte: # d64770ed;
+  altura da linha: 28 px;
+  espaçamento entre letras: 4 px;
+}
+.camada-sorvete {
+  altura: 700px;
+}
+.camada-sorvete :: before {
+  conteúdo: "";
+  posição: absoluta;
+  topo: 0;
+  inferior: 0;
+  esquerda: 0;
+  direita: 0;
+  cor de fundo: rgba (255.255.255,0,65);
+}
+.nav-bar {
+  posição: absoluta;
+  largura: 100%;
+  largura máxima: 1250 px;
+  esquerda: 50%;
+  -webkit-transform: translateX (-50%);
+          transformar: translateX (-50%);
+  estouro: oculto;
+   decoração de texto: nenhuma;
+    decoração de texto: 
+}
+.logo {
+  display: bloco embutido;
+  posição: absoluta;
+  transformação de texto: maiúscula;
+  largura: 100%;
+  largura máxima: 270 px;
+  tamanho da fonte: 50 px;
+  altura da linha: 68px;
+  superior: 35 px;
+  esquerda: 70px;
+  espaçamento entre letras: 2 px;
+  família de fontes: Fredoka One, cursiva;
+  cursor: ponteiro;
+  -webkit-transform: rotate (-5deg);
+          transformar: girar (-5 graus);
+  transição: facilidade 0.3s, facilidade 0.4s esquerda;
+  índice z: 10;
+}
+.logo :: before {
+  conteúdo: "";
+  posição: absoluta;
+  esquerda: 50%;
+  inferior: -10px;
+  -webkit-transform: translateX (-50%);
+          transformar: translateX (-50%);
+  altura: 10 px;
+  largura: 40 px;
+  cor de fundo: rgba (195,18,77,0,7);
+}
+.logo: passe o mouse {
+  -webkit-transform: escala de rotação (-8 graus) (1,15);
+          transformar: escala de rotação (-8 graus) (1,15);
+  transição: bezier cúbico 0,3s (0,3, 0,2, 0, 2);
+}
+.ice-links {
+  display: bloco embutido;
+  posição: relativa;
+  flutuador: direito;
+  transformação de texto: maiúscula;
+  preenchimento: 45px 20px;
+}
+.nav-link {
+  display: bloco embutido;
+  posição: relativa;
+  decoração de texto: nenhuma;
+  cor: # 000;
+  preenchimento: 5px 15px 10px;
+  tamanho da fonte: 15 px;
+  espaçamento entre letras: 3 px;
+  peso da fonte: 600;
+  transição: facilidade de 0.4s, facilidade de preenchimento de 0.3s;
+  -webkit-backface-visible: oculto;
+          visibilidade da face posterior: oculta;
+}
+.nav-link :: before {
+  conteúdo: "";
+  posição: absoluta;
+  inferior: 0;
+  esquerda: 49%;
+  -webkit-transform: translateX (-50%);
+          transformar: translateX (-50%);
+  altura: 2px;
+  largura: 71%;
+  cor de fundo: # 000;
+  opacidade: 0;
+  transição: facilidade 0.3s;
+
+}
+.nav-link: n-filho (1) :: anter {
+  largura: 80%;
+   decoração de texto: nenhuma;
+}
+.nav-link: nth-child (4) :: antes {
+  largura: 76%;
+   decoração de texto: nenhuma;
+}
+.nav-link: hover :: before {
+  opacidade: 1;
+  inferior: 8px;
+   decoração de texto: nenhuma;
+}
+.camada-center-image {
+  posição: absoluta;
+  altura: 401px;
+  largura: 1400px;
+  repetição em segundo plano: sem repetição;
+  posição: relativa; largura máxima: 100%;
+    margem esquerda: auto;
+  margem direita: auto;
+  repetição em segundo plano: sem repetição;
+tamanho do plano de fundo: contém;
+posição de fundo: centro;
+
+  topo: 50%;
+  esquerda: 50%;
+  -webkit-transform: translate (-50%, -50%);
+          transformar: converter (-50%, -50%);
+  background: url ("icebranco.png") centro sem repetição;
+  tamanho do plano de fundo: capa;
+}
+.camada-center-image: {
+  conteúdo: "";
+  posição: absoluta;
+  superior: 42px;
+  esquerda: -55px;
+  borda esquerda: 150px sólido transparente;
+  borda direita: 150px transparente transparente;
+  borda inferior: 90px rgba sólido (195,18,77,0,6);
+  -webkit-transform: rotate (245deg);
+          transformar: girar (245deg);
+
+}
+
+
+.creme-caixa-conteiner {
+  altura mínima: 500 px;
+}
+.creme-caixa-conteiner.coluna-esquerda .creme-caixa-texto,
+.creme-caixa-conteiner.coluna-direita .creme-caixa-creme {
+  flutuar: esquerda;
+}
+.creme-caixa-conteiner.coluna-esquerda .creme-caixa-creme,
+.creme-caixa-conteiner.coluna-direita .creme-caixa-texto {
+  flutuador: direito;
+}
+.creme-caixa-conteiner: enésimo filho (1) .inicio {
+  tamanho da fonte: 42px;
+  altura da linha: 50 px;
+}
+.creme-caixa-conteiner: nth-child (1) .creme-caixa-creme {
+  background: centro sem repetição de url ("rosafada.png");
+}
+.creme-caixa-conteiner: nth-child (2) .creme-caixa-creme {
+  background: url ("sorvetada.png") centro sem repetição;
+}
+.creme-caixa-conteiner: enésimo filho (3) .creme-caixa-creme {
+  background: url ("whiteice.jpg") centro sem repetição;
+}
+.creme-caixa-texto {
+  posição: relativa;
+  altura mínima: 500 px;
+  largura: 40%;
+  cor de fundo: #bbb;
+  background: url ("deus.jpg") centro sem repetição;
+  tamanho do plano de fundo: capa;
+  estouro: oculto;
+}
+.creme-caixa-texto :: before {
+  conteúdo: "";
+  posição: absoluta;
+  topo: 0;
+  inferior: 0;
+  esquerda: 0;
+  direita: 0;
+  cor de fundo: rgba (255.255.255,0,65);
+}
+.texto-conteiner {
+  posição: absoluta;
+  largura: 90%;
+  topo: 48%;
+  esquerda: 50%;
+  -webkit-transform: translate (-50%, -50%);
+          transformar: converter (-50%, -50%);
+  estouro: oculto;
+}
+extensão .texto-conteiner {
+  tamanho da fonte: 18 px;
+  altura da linha: 26px;
+  espaçamento entre letras: 3 px;
+  peso da fonte: 800;
+  cor: rgba (195,18,77,0,9);
+}
+.inicio {
+  display: bloco;
+  posição: relativa;
+  margem inferior: 30 px;
+  fundo do preenchimento: 15px;
+  tamanho da fonte: 31px;
+  altura da linha: 42px;
+  espaçamento entre letras: 2 px;
+  família de fontes: Fredoka One, cursiva;
+  peso da fonte: 800;
+  transição: facilidade 0.3s;
+}
+.inicio :: antes {
+  conteúdo: "";
+  posição: absoluta;
+  esquerda: 50%;
+  inferior: -10px;
+  -webkit-transform: translateX (-50%);
+          transformar: translateX (-50%);
+  altura: 8px;
+  largura: 36px;
+  cor de fundo: rgba (195,18,77,0,7);
+}
+.texto {
+  tamanho da fonte: 14 px;
+  altura da linha: 18 px;
+  espaçamento entre letras: 2 px;
+  peso da fonte: 600;
+  margem inferior: 30 px;
+}
+.creme-caixa-creme {
+  posição: relativa;
+  altura mínima: 500 px;
+  largura: 60%;
+  tamanho do plano de fundo: capa! importante;
+}
+.rodape-creme-caixa {
+  altura: 500 px;
+  fundo: centro sem repetição de url ("pop2.jpg");
+  tamanho do plano de fundo: capa;
+}
+.bottom-sorvete {
+  altura mínima: 350 px;
+  background: url ("deus.jpg") repita o centro x;
+  tamanho do plano de fundo: 800 px;
+}
+.bottom-sorvete :: before {
+  conteúdo: "";
+  posição: absoluta;
+  topo: 0;
+  inferior: 0;
+  esquerda: 0;
+  direita: 0;
+  cor de fundo: rgba (255.255.255,0,65);
+}
+.bottom-sorvete .logo {
+  superior: 65px;
+  esquerda: 40 px;
+  tamanho da fonte: 40 px;
+  -webkit-transform: rotate (0deg);
+          transformar: girar (0deg);
+}
+.bottom-sorvete .logo: passe o mouse {
+  -webkit-transform: scale (1.2);
+          transformar: escala (1.2);
+}
+.finalpg-texto {
+  posição: absoluta;
+  largura: 100%;
+  largura máxima: 200 px;
+  superior: 200 px;
+  esquerda: 70px;
+  alinhamento de texto: esquerda;
+}
+.finalpg-texto .texto {
+  tamanho da fonte: 13px;
+  peso da fonte: 800;
+  margem: 0;
+}
+@media screen e (largura máxima: 960 px) {
+  .nav-bar .logo {
+    esquerda: 50%;
+    -webkit-transform: translateX (-50%) rotate (-5deg);
+            transformar: traduzirX (-50%) girar (-5deg);
+  }
+  .nav-bar .logo: passe o mouse {
+    -webkit-transform: translateX (-50%) escala de rotação (-8deg) (1,15);
+            transformar: traduzirX (-50%) escala de rotação (-8 graus) (1,15);
+    transição: bezier cúbico 0,3s (0,3, 0,2, 0, 2);
+  }
+  .ice-links {
+    preenchimento: 150 px 0 15 px;
+    largura: 100%;
+  }
+  .camada-imagem {
+    topo: 64%;
+  }
+  .creme-caixa-texto {
+    largura: 100%;
+    altura mínima: 300 px;
+  }
+  .creme-caixa-creme {
+    altura mínima: 250 px;
+    largura: 100%;
+  }
+  .botão{
+    espaço em branco: normal;
+}
+  .texto-conteiner {
+    display: bloco;
+    posição: relativa;
+    margem: auto;
+    topo: 0;
+    esquerda: 0;
+    preenchimento: 30px 0;
+    -webkit-transform: scale (1);
+            transformar: escala (1);
+  }
+  .bottom-sorvete .logo,
+  .bottom-sorvete .finalpg-texto {
+    esquerda: 50%;
+    -webkit-transform: translateX (-50%);
+            transformar: translateX (-50%);
+  }
+  .bottom-sorvete .logo: passe o mouse {
+    -webkit-transform: translateX (-50%) escala (1.2);
+            transformação: escala translateX (-50%) (1,2);
+  }
+}
+@media screen e (largura máxima: 700 px) {
+  .rodape-creme-caixa {
+    altura: 300 px;
+  }
+  .conteudo-conteiner {
+    margem: 50 px auto 60 px;
+  }
+}
+@ -webkit-keyframes bob {
+  para {
+    inferior: 10 px;
+  }
+}
+@keyframes bob {
+  para {
+    inferior: 10 px;
+  }

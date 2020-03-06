@@ -1,0 +1,69 @@
+
+body {
+  background: #81DAF5;
+  position: relative;
+}
+
+.persona-header {
+  overflow: visible;
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.1) !important;
+}
+
+  .persona-header .material-icons {
+    color: #767777 !important; 
+  }
+
+  .persona-header .mdl-layout__drawer-button {
+    background: transparent !important;
+    color: #767777 !important;
+    line-height: 52px;
+  }
+
+  .persona-header .mdl-navigation__link {
+    color: #767777 !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+  }
+
+.persona-navigation .mdl-navigation__link {
+    display: inline-block !important;
+    height: 60px !important;
+    line-height: 68px !important;
+    background-color: transparent !important; /*Keep this !important*/
+    border-bottom: 4px solid transparent !important;
+  }
+
+    .persona-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #00bcd4 !important;
+    }
+
+
+.persona-title {
+  color: #767777 !important;
+}
+
+
+.persona-card-grid {
+  padding: 30px 0 !important;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .persona-card-wide.mdl-card {
+    width: 360px;
+  }
+
+    .persona-card-wide > .mdl-card__title {
+      color: #fff;
+      height: 200px;
+      background: url('https://abrilsuperinteressante.files.wordpress.com/2017/09/populac3a7c3a3o-de-tartarugas-marinhas-voltou-a-aumentar-em-todo-o-mundo1.png?quality=70&strip=info&resize=680,453') center / cover;
+      background-color: #00bcd4;
+    }
+
+    .persona-card-wide > .mdl-card__menu {
+      color: #fff;
+    }
+
